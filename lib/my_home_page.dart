@@ -141,7 +141,7 @@ class _MyHomePageState extends State<MyHomePage> {
             padding: EdgeInsets.fromLTRB(MediaQuery.of(context).size.width * .2,
                 0, MediaQuery.of(context).size.width * .2, 0),
             child: Text(
-              'I\'m yadunandan 26, I\'m a Flutter Developer, Flutter is a open source cross platform framework which focusses on rapid app developement with beautiful fluidic UI, This whole interactive app is made with Flutter (check additional pages), I\'m available for work at UpWork.',
+              'I\'m yadunandan 26, I\'m a Flutter Developer, Flutter is best for fast developement with serious performance, This whole interactive app is made with Flutter (check additional pages), I\'m available for work at UpWork, Waiting to bring your ideas to reality.',
               style: TextStyle(
                 color: myTheme.t2Color,
                 fontFamily: 'ZillaSlab',
@@ -189,7 +189,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     color: myTheme.t2Color,
                   ),
                   onPressed: () {
-                    html.window.open('http://upwork.com', 'Yadunandan');
+                    html.window.open('https://www.upwork.com/o/profiles/users/~01252b494a11929b9d/', 'Yadunandan');
                   },
                   label: Text(
                     'upwork.com/iamyadunandan',
@@ -204,10 +204,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     color: myTheme.t2Color,
                   ),
                   onPressed: () {
-                    html.window.open('http://upwork.com', 'Yadunandan');
+                    html.window.open('https://github.com/iamyadunandan/Flutter-Web-Demo.git', 'Yadunandan');
                   },
                   label: Text(
-                    'github.com/iamyadunandan/demo',
+                    'Source of this Flutter demo',
                     style: TextStyle(
                         fontFamily: 'ZillaSlab', color: myTheme.t2Color),
                   ),

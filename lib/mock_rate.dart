@@ -20,7 +20,10 @@ class _MockRateState extends State<MockRate> {
       Scaffold.of(context).showSnackBar(
         SnackBar(
           backgroundColor: Colors.grey[200],
-          content: Text('Try to rate the pizza..',style: TextStyle(color: Colors.grey[900]),),
+          content: Text(
+            'Try to rate the pizza..',
+            style: TextStyle(color: Colors.grey[900]),
+          ),
         ),
       );
     });
@@ -112,7 +115,10 @@ class _MockRateState extends State<MockRate> {
                         icon: Icon(Icons.add_shopping_cart),
                         label: Text(
                           'Order now',
-                          style: TextStyle(color: Colors.grey[50]),
+                          style: TextStyle(
+                            color: Colors.grey[50],
+                            fontFamily: 'ZillaSlab',
+                          ),
                         ),
                         color: Colors.green,
                       ),
