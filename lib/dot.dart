@@ -17,8 +17,15 @@ class _DotState extends State<Dot> {
   Color highlight = Colors.blueAccent;
   Color normal = Colors.transparent;
   Color color = Colors.transparent;
-  List<Color> colors = [Colors.blueAccent,Colors.greenAccent,Colors.redAccent,Colors.amberAccent,Colors.tealAccent];
-
+  List<Color> colors = [
+    Colors.blueAccent,
+    Colors.greenAccent,
+    Colors.redAccent,
+    Colors.amberAccent,
+    Colors.tealAccent,
+    Colors.cyanAccent,
+    Colors.deepOrangeAccent
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -40,8 +47,10 @@ class _DotState extends State<Dot> {
         duration: Duration(seconds: seconds),
         decoration: BoxDecoration(
           //border: Border.all(color: color, width: 24),
-          borderRadius: BorderRadius.circular(16),
-          color: color
+          borderRadius:
+              BorderRadius.circular(MediaQuery.of(context).size.width * .01),
+          color: color,
+          //shape: BoxShape.circle,
         ),
         height: widget.size,
         width: widget.size,

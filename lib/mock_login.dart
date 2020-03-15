@@ -77,7 +77,7 @@ class _MockLoginState extends State<MockLogin> {
           ),
           Padding(padding: EdgeInsets.all(16)),
           Text(
-            'Wlcome to pizza-lo\n'+textController.text,
+            'Welcome to pizza-lo\n'+textController.text,
             style: TextStyle(
               fontSize: 32,
               fontWeight: FontWeight.bold,

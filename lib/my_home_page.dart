@@ -28,14 +28,18 @@ class _MyHomePageState extends State<MyHomePage> {
     }
     return Builder(builder: (context) {
       return Scaffold(
-        body: Stack(
-          alignment: Alignment.center,
-          children: <Widget>[
-            getBackGround(context),
-            getForeGround(context),
-            getOverlay(context),
-            getChangeOverlay(context),
-          ],
+        body: Builder(
+          builder: (context) {
+            return Stack(
+              alignment: Alignment.center,
+              children: <Widget>[
+                getBackGround(context),
+                getForeGround(context),
+                getOverlay(context),
+                getChangeOverlay(context),
+              ],
+            );
+          }
         ),
       );
     });
